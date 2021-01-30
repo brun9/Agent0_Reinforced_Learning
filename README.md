@@ -33,7 +33,7 @@
 
 O objetivo deste projeto foi o implementar o algoritmo Q-Learning adaptado, inserido no contexto da Aprendizagem por Reforço. O Agente é colocado num ambiente simples, onde é colocada uma casa objetivo (G) e em alguns cenários um alvo (T). Dependendo do número de episódios, e à medida que o número destes é incrementado, o agente consegue melhor preencher a matriz Q-learning com as políticas, através do cálculo da recompensa, estado a estado, sendo que por fim, e no caso de serem utilizados episódios suficientes, estas apresentam os resultados (políticas) a convergir para a casa objetivo (G).
 
-###  Notes  ###
+###  About the Algorithm  ###
 
 O algoritmo utilizado foi o Q-learning adaptado, em que o agente através de uma exploração aleatória do mundo contabilizada em vários episódios, vai calculando o melhor comportamento a ter para cada um dos estados do mapa. Cada episódio termina quando o agente atinge a casa objetivo (G) ou a casa alvo (T). Ao fim de um determinado número de episódios, é alterada a matriz Q-learning, com as recompensas para cada estado e ação, sendo então apresentadas as melhores escolhas do agente, denonimadas de “políticas”. Estas são representativas do comportamento ótimo do agente, em cada posição do tabuleiro e baseadas no cálculo da recompensa para cada ação, em relação a cada estado.
 
