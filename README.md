@@ -14,13 +14,19 @@
  
 ###  Modified Code  ###
 
-- example.py - This file contains the Client side of the software, which when connected to main.py (Server) will allow the modified QLearning algorithm to start exploring the world during a predefined number of episodes. Each episode contains one exploration ending when the agent finds the goal position (G), or the (Target) position, in some cases.
-  
-- We were proposed to modify the provided code, coding it with the necessary instructions to be able to produce the following:
-  
-    - Once an episode is completed, the information regarding the reward for each action (per position) is filled in the QLearning table (qTable in our case).
+- example.py - This file contains the Client side of the software, which when connected to main.py (Server) will allow the modified QLearning algorithm to start exploring the world during a predefined number of episodes. 
 
-    - Once a predefined number of episodes is completed, the QLearning table will be filled with the best rewards for each of the explored world positions, information that will            then be used to graphically represent the best policy for each of those positions. This is done by use of the "marrow" function, which prints directional arrows in the world map, pointing the best possible move for each position.
+- We were proposed to modify the provided code, coding it with the necessary instructions to be able to produce the following:
+
+    - Randomly explore the world with the Agent.
+    
+    - create de QLearning matrix.
+     
+    - Define an episode - Each episode contains one exploration ending when the agent finds the goal position (G), or the (Target) position, in some cases.
+  
+    - Once an episode is completed, the information regarding the reward for each action (per position) is filled in the QLearning table (qTable in our case). 
+  
+    - Once a predefined number of episodes is completed, the QLearning table will be filled with the best rewards for each of the explored world positions, information that will then be used to graphically represent the best policy for each of those positions. This is done by use of the "marrow" function, which prints directional arrows in the world map, pointing the best possible move for each position.
 
 
 ###  Project Goals  ###
